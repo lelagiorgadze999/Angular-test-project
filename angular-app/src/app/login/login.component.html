@@ -1,0 +1,8 @@
+<form (submit)="onSubmit($event)">
+  <label>Username:</label>
+  <input type="text" [placeholder]="place_holders.username" />
+  <label>Password:</label>
+  <input type="password" [placeholder]="place_holders.password" />
+  <button (click)="login()">Login</button>
+  <button (click)="register()">Register</button>
+</form>

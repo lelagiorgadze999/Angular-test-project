@@ -1,0 +1,9 @@
+nav {
+  border: 1px solid red;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=header.component.css.map */
